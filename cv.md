@@ -21,6 +21,32 @@ I believe that I can do it.
 I already wrote my code when *I made a page* with my CV, as well as when *I wrote my own calculator in javascript*.
 now I continue to study at BSUIR University, and in a month I will start studying at rsschool.
 
+```
+ <script>
+                function insert (num) {
+                    document.form.textview.value = document.form.textview.value + num 
+                }
+
+                function back() {
+                    let str = document.form.textview.value
+
+                    document.form.textview.value = str.substring(0, str.length-1);
+                }
+
+                function clean() {
+                    document.form.textview.value = ""
+                }
+
+                function equal() {
+                    let str = document.form.textview.value;
+
+                    if(str) {
+                        document.form.textview.value = eval(str)
+                    }
+                }
+            </script>
+            ```
+
 ##my English
 I speak English at an elementary level. studied it at school. English is very important, so I plan to learn it along with programming. 
 >because this will be an excellent advantage, and often even a necessity.
