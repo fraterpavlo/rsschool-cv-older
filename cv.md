@@ -19,7 +19,7 @@ I believe that I can do it.
 
 ##code examples
 I already wrote my code when *I made a page* with my CV, as well as when *I wrote my own calculator in javascript*.
-now I continue to study at BSUIR University, and in a month I will start studying at rsschool.
+now I continue to study at [BSUIR](https://www.bsuir.by/) University, and in a month I will start studying at rsschool.
 
 ```
  <script>
