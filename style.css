@@ -3,15 +3,30 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 .wrapper {
   max-width: 1920px;
   width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.wrap {
+  max-width: 1400px;
   margin: 0 auto;
 }
 
-.contain {
-  max-width: 1400px;
-  margin: 0 auto;
+li {
+  list-style: none;
 }
 
 a {
@@ -66,7 +81,7 @@ font-style: italic;
 hr {
   margin: 10px auto 10px;
   background-color: #ccc;
-  width: 70%;
+  width: 80%;
   height: 2px;
   border: none;
 }
@@ -74,7 +89,7 @@ hr {
 .layout-2column {
   display: flex;
   justify-content: space-between;
-  max-width: 70%;
+  max-width: 80%;
   margin: 50px auto 0;
 }
 
@@ -105,21 +120,30 @@ h2 {
   margin-bottom: 2px;
 }
 
+footer {
+  height: 100px;
+  background: rgb(177, 200, 216);
+}
 
-@media (max-width: 1200px) {
+footer .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+}
 
-  hr {
-    width: 80%;
-  }
+.footer-logo {
+  width: 138px;
+  height: 51px;
+}
 
-  .layout-2column {
-    max-width: 80%;
-  }
-
+#footer-year {
+  font-family: 'Festive', cursive;
+  font-size: 50px;
 }
 
 
-@media (max-width: 860px) {
+@media (max-width: 1200px) {
 
   hr {
     width: 90%;
@@ -131,15 +155,28 @@ h2 {
 
 }
 
+
+@media (max-width: 860px) {
+
+  hr {
+    width: 100%;
+  }
+
+  .layout-2column {
+    max-width: 100%;
+  }
+
+}
+
 @media (max-width: 640px) {
 
   hr {
-    width: 80%;
+    width: 90%;
   }
 
   .layout-2column {
     flex-direction: column;
-    max-width: 80%;
+    max-width: 90%;
   }
 
   .information-content {
@@ -149,7 +186,7 @@ h2 {
   }
   
   .about-me-content {
-    margin: 50px auto 0;
+    margin: 30px auto 0;
     padding: 0;
 
   }
