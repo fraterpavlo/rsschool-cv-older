@@ -1,6 +1,6 @@
 # Hello World
 
-my name is *Shukan Pavel*, I am *21* years old and I live in *Minsk*.
+my name is *Shukan Pavel*, I am *22* years old and I live in *Minsk*.
 
 ## my contacts for communication:
 * call - **+375297688891**
@@ -45,7 +45,8 @@ now I continue to study at [BSUIR](https://www.bsuir.by/) University, and in a m
                     }
                 }
             </script>
-            ```
+            
+```
 
 ## my English
 I speak English at an elementary level. studied it at school. English is very important, so I plan to learn it along with programming. 
