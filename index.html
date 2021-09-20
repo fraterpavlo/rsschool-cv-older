@@ -58,25 +58,25 @@
             </p>
           </div>
         </div>
-        <a href="" class="wave-btn">
+        <a href="#" class="wave-btn">
           <span class="wave-btn__text">Show More</span>
           <span class="wave-btn__waves"></span>
         </a>
       </main>
-      <section class="more-page">
+      <section class="more-page none">
         <section class="wrap more-page__navigation">
           <nav class="navigation">
             <ul class="navigation__list">
-              <li class="navigation__item"><a href="" class="navigation__link">Skills</a></li>
-              <li class="navigation__item"><a href="" class="navigation__link">Projects</a></li>
-              <li class="navigation__item"><a href="" class="navigation__link">Code</a></li>
-              <li class="navigation__item"><a href="" class="navigation__link">Languages</a></li>
-              <li class="navigation__item"><a href="" class="navigation__link">Video</a></li>
+              <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+              <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
+              <li class="navigation__item"><a href="#code" class="navigation__link">Code</a></li>
+              <li class="navigation__item"><a href="#languages" class="navigation__link">Languages</a></li>
+              <li class="navigation__item"><a href="#video" class="navigation__link">Video</a></li>
               <!-- <li class="navigation__item"><a href="" class="navigation__link">Contacts</a></li> -->
             </ul>
           </nav>
         </section>
-        <section class="wrap more-page__skills">
+        <section id="skills" class="wrap more-page__skills">
           <h2 class="more-page__skills__tittle h2-tittle">skills</h2>
           <ul class="more-page__skills__list skills-list">
             <li class="skills-list__item">HTML <hr class="skills-list__hr hr_html"></li>
@@ -87,7 +87,7 @@
             <li class="skills-list__item">Markdown <hr class="skills-list__hr hr_markdown"></li>
           </ul>
         </section>
-        <section class="wrap more-page__projects">
+        <section id="projects" class="wrap more-page__projects">
           <h2 class="more-page__projects__tittle h2-tittle">projects</h2>
           <div class="more-page__projects__cards cards layout-2column">
             <a href="https://rolling-scopes-school.github.io/fraterpavlo-JSFEPRESCHOOL/museum/" class="cards__item card">
@@ -128,7 +128,7 @@
             </a>
           </div>
         </section>
-        <section class="wrap more-page__code">
+        <section id="code" class="wrap more-page__code">
           <h2 class="more-page__code__tittle h2-tittle">code</h2>
           <pre><code class="javascript">
             function check(str, bracketsConfig) {
@@ -161,19 +161,19 @@
             }
           </code></pre>
         </section>
-        <section class="wrap more-page__languages">
+        <section id="languages" class="wrap more-page__languages">
           <h2 class="more-page__languages__tittle h2-tittle">languages</h2>
           <p class="more-page__languages__text">
             I speak two languages fluently - Russian and Belarusian. my English level is about B1. I find it difficult to conduct a dialogue in English, although I can do it.
           </p>
         </section>
-        <section class="wrap more-page__video">
+        <section id="video" class="wrap more-page__video">
           <h2 class="more-page__video__tittle h2-tittle">video</h2>
           <p class="more-page__video__text">
             Yes, I did not record a video presentation. I'll do it later, but for now, here's a cat :)
           </p>
           <div class="more-page__video__video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uXnLyUZYkVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="more-page__video__iframe" width="560" height="315" src="https://www.youtube.com/embed/uXnLyUZYkVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </section>
         <!-- <section class="wrap more-page__contacts">
@@ -195,6 +195,7 @@
         <div class="footer-year">2021</div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
 
