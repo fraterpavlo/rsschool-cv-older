@@ -64,8 +64,23 @@
         </a>
       </main>
       <section class="more-page none">
+        <h2 class="h2-none" style="display: none;"></h2>
         <section class="wrap more-page__navigation">
+          <h2 class="h2-none" style="display: none;"></h2>
           <nav class="navigation">
+            <div class="burger-menu">
+              <input id="menu-toggle" type="checkbox" />
+              <label class="menu-btn" for="menu-toggle">
+                <span></span>
+              </label>
+              <ul class="menubox">
+                      <li><a class="menu-item" href="#skills">Skills</a></li>
+                      <li><a class="menu-item" href="#projects">Projects</a></li>
+                      <li><a class="menu-item" href="#code">Code</a></li>
+                      <li><a class="menu-item" href="#languages">Languages</a></li>
+                      <li><a class="menu-item" href="#video">Video</a></li>
+              </ul>
+            </div>
             <ul class="navigation__list">
               <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
               <li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
@@ -135,7 +150,7 @@
               let stack = [];
               let map = new Map(bracketsConfig);
           
-              for (i = 0; i < str.length; ++i) {
+              for (i = 0; i &lt; str.length; ++i) {
                 let currentBracket = str[i]; 
                 let lastBracketInStack = stack[stack.length - 1];
                 let pairForLastOpenBracket = map.get(lastBracketInStack);
