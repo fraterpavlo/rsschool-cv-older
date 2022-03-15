@@ -1,10 +1,10 @@
 # Hello World
 
-my name is *Shukan Pavel*, I am *22* years old and I live in *Minsk*.
+my name is *Shukan Pavel*, I am *23* years old and I live in *Minsk*.
 
 ## my contacts for communication:
 * call - **+375297688891**
-* write - **shukan1999@mail.ru**
+* write - **shukan1999@gmail.ru**
 
 ## about me
 I am a young, ambitious guy who wants to become better and make my life better. *I am sociable, cheerful and open to everything new.* 
